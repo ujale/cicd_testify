@@ -6,6 +6,7 @@ Test repository
 - Git clone
 - Git Push
 - Git Pull
+- Pull Request, Code review & Merge
 
 ## Installation
 How to install git 
@@ -28,8 +29,13 @@ Create an account on Github
 - Use the command git pull origin <branch with updated code>
 - Use the command git push origin <branch to be updated>
 
+## Pull Request (PR) 
+This involves asking the project maintainer to review your updates before it is merged to the main or dev branch. PRs can also be created for branch to branch review of code.
+- click on the compare and create PR button
+- follow th instructions to merge changes from 1 branch to the other
+
 
 ### NOTICE
 - git branch // This will show you the current branch on githib you are currently on
-- git branch <branch name> // This takes you (switches) to the brancj name inputed
+- git branch <branch name> // This takes you (switches) to the branch name inputed
 - git checkout <branch name> // This takes you into the branch
