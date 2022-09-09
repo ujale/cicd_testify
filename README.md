@@ -6,6 +6,7 @@ Test repository
 - Git clone
 - Git Push
 - Git Pull
+- Pull Request, Code review & Merge
 
 ## Installation
 How to install git 
@@ -21,3 +22,25 @@ Create an account on Github
 
 ## Push your changes from your local machine to your github account
 - create a new file eg main.py and push it to a new branch eg udeme-dev
+- The command to push is git push origin <branch name>
+
+## Pull code from a branch into another branch
+- Use the command git checkout <branch name> to switch into the new branch where you intend to pull fresh code into
+- Use the command git pull origin <branch with updated code>
+- Use the command git push origin <branch to be updated>
+
+## Pull Request (PR) 
+This involves asking the project maintainer to review your updates before it is merged to the main or dev branch. PRs can also be created for branch to branch review of code.
+- click on the compare and create PR button
+- follow th instructions to merge changes from 1 branch to the other
+Alternatively,
+- click on pull request tab of your repo
+- click on the new pull request button
+- select the branches you want to merge (base is the destination branch & compare is the branch where changes are to be added from)
+- click on create new pull request, enter decription and click create pull request
+
+
+### NOTICE
+- git branch // This will show you the current branch on githib you are currently on
+- git branch <branch name> // This takes you (switches) to the branch name inputed
+- git checkout <branch name> // This takes you into the branch
