@@ -7,6 +7,7 @@ Test repository
 - Git Push
 - Git Pull
 - Pull Request, Code review & Merge
+- GitHub Actions
 
 ## Installation
 How to install git 
@@ -39,6 +40,11 @@ Alternatively,
 - select the branches you want to merge (base is the destination branch & compare is the branch where changes are to be added from)
 - click on create new pull request, enter decription and click create pull request
 
+- Add new comments during code review of a PR is done by clicking on the file changes tab and inputing comment in the section
+
+## Github Actions
+- To setup github actions, create a .github/workflows folder if 1 doesnt exist already
+- create a .yaml file for the workflow execution
 
 ### NOTICE
 - git branch // This will show you the current branch on githib you are currently on
