@@ -21,3 +21,15 @@ Create an account on Github
 
 ## Push your changes from your local machine to your github account
 - create a new file eg main.py and push it to a new branch eg udeme-dev
+- The command to push is git push origin <branch name>
+
+## Pull code from a branch into another branch
+- Use the command git checkout <branch name> to switch into the new branch where you intend to pull fresh code into
+- Use the command git pull origin <branch with updated code>
+- Use the command git push origin <branch to be updated>
+
+
+### NOTICE
+- git branch // This will show you the current branch on githib you are currently on
+- git branch <branch name> // This takes you (switches) to the brancj name inputed
+- git checkout <branch name> // This takes you into the branch
