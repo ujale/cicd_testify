@@ -33,6 +33,11 @@ Create an account on Github
 This involves asking the project maintainer to review your updates before it is merged to the main or dev branch. PRs can also be created for branch to branch review of code.
 - click on the compare and create PR button
 - follow th instructions to merge changes from 1 branch to the other
+Alternatively,
+- click on pull request tab of your repo
+- click on the new pull request button
+- select the branches you want to merge (base is the destination branch & compare is the branch where changes are to be added from)
+- click on create new pull request, enter decription and click create pull request
 
 
 ### NOTICE
