@@ -1,0 +1,17 @@
+name: Learning Github Actions
+on: [push]
+jobs: 
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "This job was automatically triggered by ${{github.event_name}} event"
+      - run: python main.py
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Building Job"
+  Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploying Job"
