@@ -1,8 +1,8 @@
 name: MergeCI
-on: [ pull-request ]
+on: [ pull_request ]
 jobs: 
   MergeJob:
-    runs-on: ${{ matrix-os }}
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest]
