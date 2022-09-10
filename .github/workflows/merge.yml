@@ -1,7 +1,7 @@
 name: MergeCI
 on: [ pull-request ]
 jobs: 
-  Test:
+  MergeJob:
     runs-on: ${{ matrix-os }}
     strategy:
       matrix:
