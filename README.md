@@ -43,8 +43,10 @@ Alternatively,
 - Add new comments during code review of a PR is done by clicking on the file changes tab and inputing comment in the section
 
 ## Github Actions
+- Github Actions allows you test, build and deploy your project from github
 - To setup github actions, create a .github/workflows folder if 1 doesnt exist already
 - create a .yaml file for the workflow execution
+- yaml is a mockup language for configuration files
 
 ### NOTICE
 - git branch // This will show you the current branch on githib you are currently on
